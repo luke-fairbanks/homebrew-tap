@@ -7,7 +7,9 @@ cask "harbor" do
   desc "One-button local dev server orchestration, MCP-native"
   homepage "https://github.com/luke-fairbanks/harbor-mcp"
 
+  depends_on :macos
+
   app "Harbor.app"
 
-  zap trash: ["~/Library/Application Support/com.harbor.desktop"]
+  zap trash: "~/Library/Application Support/com.harbor.desktop"
 end
