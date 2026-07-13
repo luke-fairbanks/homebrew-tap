@@ -1,6 +1,6 @@
 cask "battery-hog" do
-  version "1.3.1"
-  sha256 "e242c194dcb8c80fb78f643b29d0c9d0a3953e6f4f8df9135457f01836e0a810"
+  version "1.4.0"
+  sha256 "b8b2d6778c0b4344ce617bf00753131cf7fd9b1a429a553be5d98bb8e10b968d"
 
   url "https://github.com/luke-fairbanks/BatteryHog/releases/download/v#{version}/BatteryHog-#{version}.dmg"
   name "Battery Hog"
