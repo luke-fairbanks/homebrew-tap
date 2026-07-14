@@ -1,6 +1,6 @@
 cask "harbor" do
-  version "0.4.1"
-  sha256 "1bdd6b899e64371275bcca004175472dfde47981c6da0b474ca976547ad5c524"
+  version "0.5.0"
+  sha256 "3b809111823b5329bce11d008c1a5775af0baff14b09b1bb62fedb6d066c71b2"
 
   url "https://github.com/luke-fairbanks/harbor-mcp/releases/download/v#{version}/Harbor_#{version}_universal.dmg"
   name "Harbor"
